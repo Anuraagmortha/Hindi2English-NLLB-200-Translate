@@ -1,2 +1,2 @@
 # Hindi2English-NLLB-Translate
-This is a small API which is used for translating Hindi language sentences to English language sentences very cclose to accurate level.
+Hindi to english nnlb-200 This is an API used for translating sentences from Hindi to English almost accurately. This API uses NLLB-200 model for translations which results in nearly precise results.
