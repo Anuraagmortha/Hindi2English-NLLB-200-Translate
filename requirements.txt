@@ -1,0 +1,4 @@
+fastapi==0.95.1
+transformers==4.29.2
+huggingface-hub==0.15.1
+dotenv==0.0.5
