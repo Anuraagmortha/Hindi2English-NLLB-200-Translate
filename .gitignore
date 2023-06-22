@@ -1,0 +1,19 @@
+# Ignore all env files
+*.env
+
+# Ignore Python Checkpoint Files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Checkpoint Files
+checkpoints/
+
+# Log files
+*.log
+
+# Editor-specific files and directories
+.vscode/
+
+# Executable files
+*.exe
