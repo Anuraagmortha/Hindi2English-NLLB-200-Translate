@@ -1,7 +1,13 @@
 from fastapi import FastAPI, Query
 from typing import Annotated
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-from huggingface_hub import HfFolder; HfFolder.save_token("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")
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+HUGGINGFACE_API_KEY = os.getenv('HUGGING_FACE_API_KEY')
+
+from huggingface_hub import HfFolder; HfFolder.save_token(HUGGINGFACE_API_KEY)
 
 
 app = FastAPI()
