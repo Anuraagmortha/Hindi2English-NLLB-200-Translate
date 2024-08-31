@@ -2,7 +2,7 @@
 Hindi to English NLLB-200 translator API. This is an API used for translating sentences from Hindi to English accurately. It uses Python as the programming language and FastAPI as the web framework. It makes use of a pre-trained model created by facebook named "facebook/nllb-200-distilled-600M".  
 
 # Getting Started  
-To install, run: [requirements.txt](requirements.txt)  
+To install, run the [requirements.txt](requirements.txt) using the following command:  
 
 ```
 pip install -r requirements.txt
