@@ -7,6 +7,9 @@ To install, run: [requirements.txt](requirements.txt)
 ```
 pip install -r requirements.txt
 ```
+
+# Hugging Face Key
+Place your Hugging Face API key in the main.py file in place of 'your_actual_hugging_face_api_key'. \n
 Run the main.py file by following command:
 ```
 uvicorn main:app --reload
