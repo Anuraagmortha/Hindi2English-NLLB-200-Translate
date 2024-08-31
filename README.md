@@ -2,10 +2,16 @@
 Hindi to English nnlb-200 This is an API used for translating sentences from Hindi to English accurately. It uses Python as the programming language and FastAPI as the web framework. It makes use of a pre-trained model created by facebook named "facebook/nllb-200-distilled-600M".
 
 # Getting Started
-Install all dependencies from requirements.txt using pip.
-run the main.py file by following command:
+To install, run: [requirements.txt](requirements.txt)
+
+```
+pip install -r requirements.txt
+```
+Run the main.py file by following command:
+```
 uvicorn main:app --reload
-Then, open http://127.0.0.1:8000 (localhost) to see it on your browser.
+```
+Then, open your localhost http://127.0.0.1:8000 to see it on your browser.
 
 # Home Page
 The below image illustrates the implementation of this translator with a simple UI. 
