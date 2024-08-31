@@ -20,11 +20,13 @@ Then, open your localhost http://127.0.0.1:8000 to see it on your browser.
 
 # Home Page  
 The below image illustrates the implementation of this translator with a simple UI.  
+You can enter the input Hindi text in the text box given there and click on ```Translate``` button which directs to result page.  
+  
 ![image](https://github.com/user-attachments/assets/b167e309-5d68-4bbd-be4e-ab78b2917f2d)  
-You can enter the input Hindi text in the text box given there and click on "Translate" button which directs to result page.  
 
 # Result page  
 In this page, you can see the input Hindi text, The translated English text and an option to translate other texts as follows:  
+  
 ![image](https://github.com/user-attachments/assets/214f5a40-b3c0-4293-892d-18fc9ab4957d)  
 
 # Learn More  
